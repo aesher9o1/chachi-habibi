@@ -992,7 +992,7 @@ h6 {
 }
 
 a {
-	color: #3fad93
+	color: #493388
 }
 
 a:focus,
@@ -1351,8 +1351,8 @@ textarea:active,
 textarea:focus,
 textarea:hover {
 	outline: 0;
-	border-color: #3fad93;
-	color: #3fad93;
+	border-color: #493388;
+	color: #493388;
 	transition: all .3s ease-out
 }
 
@@ -1394,7 +1394,7 @@ button {
 button:active,
 button:focus,
 button:hover {
-	background: #3fad93
+	background: #493388
 }
 
 ::-webkit-input-placeholder,
@@ -5057,7 +5057,7 @@ body>section.container {
 }
 
 .typeahead .active>a:hover {
-	color: #3fad93
+	color: #493388
 }
 
 .typeahead.hidden {
@@ -7125,13 +7125,13 @@ html[data-useragent*=Trident] .fieldset--custSelect::after {
 .textarea:focus,
 .textarea:hover {
 	outline: 0;
-	border-color: #3fad93;
-	color: #3fad93;
+	border-color: #493388;
+	color: #493388;
 	transition: all .3s ease-out
 }
 
 .input:focus {
-	color: #3fad93
+	color: #493388
 }
 
 .input,
@@ -7201,7 +7201,7 @@ html[data-useragent*=Trident] .fieldset--custSelect::after {
 
 .button:focus,
 .button:hover {
-	background: #3fad93
+	background: #493388
 }
 
 .successClose {
@@ -12482,7 +12482,7 @@ video {
 
 .auth-modal-wrapper a.login-to-signup {
 	display: inline;
-	color: #3fad93
+	color: #493388
 }
 
 .auth-modal-wrapper a.login-to-signup:focus,
