@@ -29,11 +29,11 @@ function submitForm(e){
   let website = getInputVal('site');
   let message = getInputVal('message');
   let service = getInputVal('services');
-  let dope=getCheck('text1');
-  let check=getCheck('text2');
+  //let dope=getCheck('text1');
+  //let check=getCheck('text2');
   //save message
 
-  saveMessage(name, company, email, phone, message, website, service,check,dope);
+  saveMessage(name, company, email, phone, message, website, service);
 
   //show alert
   document.querySelector('.alert').style.display='block';
@@ -64,7 +64,7 @@ function getCheck(id)
 }
 
 //save message to firebase
-function saveMessage(name, company, email, phone, message,website,service,check,dope){
+function saveMessage(name, company, email, phone, message,website,service){
   let newMessageRef = messagesRef.push();
   newMessageRef.set({
       name: name,
@@ -73,8 +73,6 @@ function saveMessage(name, company, email, phone, message,website,service,check,
       phone: phone,
       message: message,
       website: website,
-      service: service,
-      check:check,
-      dope:dope
+      service: service
   })
 }
