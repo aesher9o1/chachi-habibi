@@ -1521,7 +1521,7 @@
 
     /* custom */
     section {padding: 75px 0;}
-    section.big-section {padding:120px 0;}
+    section.big-section {padding:20px 0;}
     section.extra-big-section {padding: 150px 0;}
     section.half-section {padding:40px 0;}
     .md-col-2-nth .col-sm-6:nth-child(2n+1) {clear: left;}
